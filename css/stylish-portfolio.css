@@ -315,7 +315,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(76, 206 222, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -347,11 +347,11 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #4CCEDE;
 }
 
 p.stuff:hover, a:focus, a:active {
-  color: #155d74;
+  color: #4CCEDE;
 }
 
 .btn-primary {
@@ -386,13 +386,43 @@ p.stuff:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #4CCEDE !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #4CCEDE !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #FF674D !important;
+}
+
+
+/*bootstrap overrides*/
+.btn-light {
+  color: #fff;
+  background-color: #FF674D;
+  border-color: #FF674D;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #4CCEDE;
+  border-color: #4CCEDE;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #FF674D;
+  border-color: #FF674D;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #4CCEDE;
+  border-color: #4CCEDE;
+}
+
+.bg-secondary {
+    background-color: #f69782!important;
 }
