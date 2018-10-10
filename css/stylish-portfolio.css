@@ -435,7 +435,17 @@ p.stuff:hover, a:focus, a:active {
   text-align: center;
 }
 .full-image > img {
-  height: 90vh;
+  height: 85vh;
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
+
+@media (max-width: 992px) {
+.full-image > img {
+  max-width: 85%;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+}
+
+
