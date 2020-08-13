@@ -38,7 +38,7 @@ body {
 
 .main-site-header h2 {
   color: #4CCEDE;
-  font-size: 6rem; 
+  font-size: 6rem;
 }
 
 .main-site-header h3 {
@@ -325,6 +325,7 @@ h6 {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
+    width: 100%;
   }
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
@@ -440,7 +441,7 @@ p.stuff:hover, a:focus, a:active {
     max-height: 85vh;
     max-width: 70%;
     margin-bottom: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 }
@@ -450,11 +451,11 @@ p.stuff:hover, a:focus, a:active {
   .full-image {
     text-align: center;
     margin: 0  auto;
-  }  
+  }
   .full-image > img, video {
     max-width: 300px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
@@ -501,17 +502,17 @@ p.stuff:hover, a:focus, a:active {
 
 @media (max-width: 992px) {
   .main-site-header h2 {
-    font-size: 3em; 
+    font-size: 3em;
   }
 
   .main-site-header h3 {
-    font-size: 2em; 
+    font-size: 2em;
   }
 
   .laurenHeader > img {
     height: 60vh;
     width: auto;
-  }  
+  }
 }
 
 @media (max-width: 600px) {
@@ -523,14 +524,22 @@ p.stuff:hover, a:focus, a:active {
     flex-direction: column;
   }
   .main-site-header h2 {
-    font-size: 3em; 
+    font-size: 3em;
   }
   .main-site-header h3 {
-    font-size: 2em; 
+    font-size: 2em;
   }
 
   .laurenHeader > img {
     height: 60vh;
     width: auto;
   }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.img-fluid, .full-width {
+  max-height: 291px;
 }
